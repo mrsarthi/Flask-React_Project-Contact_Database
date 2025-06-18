@@ -25,8 +25,8 @@ This is a full-stack application built with Flask (backend) and React (frontend)
 
 - **Frontend**: React, HTML, CSS, JavaScript
 - **Backend**: Flask, Python
-- **Database**: SQLite (or replace with your preferred DB)
-- **Styling**: Bootstrap (optional for UI components)
+- **Database**: SQLite 
+- **Styling**: Bootstrap 
 
 ## Prerequisites
 
