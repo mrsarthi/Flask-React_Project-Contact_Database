@@ -1,5 +1,0 @@
-Flask
-Flask-SQLAlchemy
-flask-cors
-
-Lol rofl lmai
