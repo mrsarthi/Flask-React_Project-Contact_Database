@@ -5,7 +5,7 @@ app = Flask(__name__)
 
 
 @app.route('/members')
-def memeber():
+def members():
     return {"Members": ["Alice", "Bob", "Charlie"]}
 
 
