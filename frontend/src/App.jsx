@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import ContactForm from './ContactForm';
 import ContactList from './ContactList';
+import './App.css'; // Assuming you have some basic styles
 
 function App() {
   const [contacts, setContacts] = useState([]);
