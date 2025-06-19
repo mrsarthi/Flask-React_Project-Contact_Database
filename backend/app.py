@@ -1,12 +1,13 @@
 from flask import Flask
-# from flask_sqlalchemy import SQLAlchemy
+from flask_cors import CORS
 
 app = Flask(__name__)
+CORS(app)
 
 
 @app.route('/members')
 def members():
-    return {"Members": ["Alice", "Bob", "Charlie"]}
+    return {"members": ["Alice", "Bob", "Charlie"]}
 
 
 if __name__ == "__main__":
