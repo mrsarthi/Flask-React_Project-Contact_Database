@@ -1,5 +1,33 @@
-backend/venv/
-frontend/node_modules/
-# Ignore Python bytecode files
+# Python
 __pycache__/
 *.py[cod]
+*.sqlite3
+*.db
+instance/
+.env
+
+# Flask database
+contacts.db
+
+# Virtual environment
+venv/
+env/
+
+# React / Node
+node_modules/
+build/
+dist/
+.env.local
+.env.production
+.env.development
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# VS Code settings (optional)
+.vscode/
+
